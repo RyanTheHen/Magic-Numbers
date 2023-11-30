@@ -8,7 +8,7 @@ files = []
 #Get current working directory to iterate over
 cwd = os.getcwd()
 
-#Defines Magic Numbers by file type for comparison
+#Defines Magic Numbers by file type for comparison to file header
 magic_numbers = {'png': bytes([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A]),
                  'jpg': bytes([0xFF, 0xD8, 0xFF, 0xE0]),
                  #*********************#
